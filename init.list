@@ -1,0 +1,6 @@
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/sickill/vim-monokai.git
+mv ./vim-monokai/* ~/vim/
+echo "syntax enable">~/.vimrc
+echo "colorscheme monokai">~/.vimrc
+git clone https://github.com/altercation/vim-colors-solarized.git
