@@ -1,0 +1,9 @@
+host 01 
+HostName 183.230.1.44
+user root
+port 22
+
+host 04
+hostname 192.168.1.4
+proxyCommand ssh HLY -W %h:%p
+user root
